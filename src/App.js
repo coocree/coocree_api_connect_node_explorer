@@ -15,6 +15,7 @@ import type { GraphQLSchema } from "graphql";
 function fetcher(params: Object): Object {
   return fetch(
     "https://serve.onegraph.com/dynamic?app_id=c333eb5b-04b2-4709-9246-31e18db397e1",
+    //"http://api.kdltelegestao.com/query",
     {
       method: "POST",
       headers: {
